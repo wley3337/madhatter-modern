@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { blogsArray } from '../enumerables/blogObj'
 
 
 const Blogs =() =>{
