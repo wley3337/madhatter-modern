@@ -6,7 +6,7 @@ const LinkedInIcon = () =>{
         <a  href={"https://www.linkedin.com/in/wley3337/"} alt="Linked In Profile" target="_blank" rel="noopener noreferrer" className="linked-in-wrapper">
             
                 <img className="linked-in-icon" src={linkedIn} alt="Linked In icon" />
-                <p className="text linked-in-label">Linked In</p>
+                {/* <p className="text linked-in-label">Linked In</p> */}
     
         </a>
     ) 

@@ -6,7 +6,7 @@ const EmailIcon = () =>{
         <a className="email-icon-wrapper text" href={"mailto: will.ley@madhatter.dev"} alt="email" >
             
                 <img className="email-icon" src={emailIcon} alt="Email Icon"/>
-                <p className="text email-icon-label">will.ley@madhatter.dev</p>
+                {/* <p className="textemail-icon-label">will.ley@madhatter.dev</p> */}
     
         </a>
     )
