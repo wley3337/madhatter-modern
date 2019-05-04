@@ -12,7 +12,7 @@ export const projects = [
         title: "MeetByMe",
         description: "A way to look at MeetUps happening near your current location. It allows you to save the MeetUp and displays its location relative to yours using MapBoxGL.",
         githubLink: "https://github.com/wley3337/MeetByMe",
-        techUsed: "React, Clientside Routing, JWT Token Auth., Ruby on Rails w/ PostgressSQL for persistence, External APIs: MapboxGL and MeetUp"
+        techUsed: "React, Client side Routing, JWT Token Auth., Ruby on Rails w/ PostgressSQL for persistence, External APIs: MapboxGL and MeetUp"
     },
     {   
         id: "p3",
