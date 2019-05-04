@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "874c28c7b1d32e4249a63d4c369845be",
+    "revision": "3110c26c973f4700bf55d70c5bb0e4bd",
     "url": "/index.html"
   },
   {
-    "revision": "00b6e68150f24ea0dd7a",
-    "url": "/static/css/main.50f4e73a.chunk.css"
+    "revision": "97a785eba7c49ee486fe",
+    "url": "/static/css/main.93bb9d5b.chunk.css"
   },
   {
-    "revision": "7b8ee2657c469ab8beba",
-    "url": "/static/js/2.f55e0352.chunk.js"
+    "revision": "435163dd44e14965feb8",
+    "url": "/static/js/2.716d88e2.chunk.js"
   },
   {
-    "revision": "00b6e68150f24ea0dd7a",
-    "url": "/static/js/main.bcc7dfc6.chunk.js"
+    "revision": "97a785eba7c49ee486fe",
+    "url": "/static/js/main.de696e7b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5c70230d0c498fb2d9b29beb1a7e7d9d",
     "url": "/static/media/reporter-hat-with-card.5c70230d.png"
-  },
-  {
-    "revision": "157ebfc77409fb3380bacd389c9479cf",
-    "url": "/static/media/textured-background.157ebfc7.png"
   },
   {
     "revision": "e90855c02c8f1669afa4e01cc541b272",
