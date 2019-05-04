@@ -9,6 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   width: 100vw;
+  background-image: url('https://madhatter.dev/textured-background.png');
+    background-position: "center";
+    background-size: "cover";
+    background-attachment: "fixed";
   
   
 }
