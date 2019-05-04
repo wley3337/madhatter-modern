@@ -9,13 +9,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   width: 100vw;
+  
+  
 }
+
+.main{
+  display: grid;
+  grid-template-columns:  auto minmax(200px, 850px) auto;
+  grid-template-areas: "main-left body main-right ";
+
+}
+.content-wrapper{
+  grid-area: body;
+}
+
 
 .text {
   color: #fff;
+  letter-spacing: 1.6px;
+  line-height: 1.6px;
+
 }
 
 /* ******** MAIN TITLES */
+
+
 .name-title, .welcome-text {
   text-align: center;
   align-self: center;
@@ -24,6 +42,8 @@ body {
 }
 
 .welcome-text{
+  color: #fff;
+  letter-spacing: .4em;
   padding: 1em;
 }
 
@@ -72,8 +92,8 @@ body {
   margin-right: auto;
   padding: 1em;
   text-align: center;
-  letter-spacing: 1.5px;
-  line-height: 1.2;
+  letter-spacing: 1.6px;
+  line-height: 1.6;
 
 }
 
@@ -122,16 +142,21 @@ body {
 
 .project-detail-desc {
   font-size: 95%; 
+  font-weight: 500;
+  line-height: 140%;
+
 }
 
 .project-detail-tech{
   font-size: 75%;  
+  font-weight: 500;
+  line-height: 140%;
 }
 
 
 /* ******* BLOG SYTLES */
 .blogs-details-wrapper{
-  background-color: rgb(75,163,199, .8);
+  background-color: rgb(75,163,199, .3);
   padding: .2em;
  
 }
@@ -153,46 +178,77 @@ body {
   font-weight: 150;
   color: #fff;
   opacity: .8;
-  /* padding: .5em; */
+
 }
 
 /* ********* CONTACT STYLES */
-
+.contact-header{
+  color: #fff;
+  font-size: 2.5em;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  margin: 1.5em;
+}
 .contact-wrapper{
   justify-self: center;
   justify-content: center;
 }
 
 .contact-icon-wrapper{
-  background-color: rgb(106,27,154);
+  background-color: rgb(106,27,154, .6);
+  padding: .5em;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: " github linkedin email";
+  grid-template-columns: auto .75fr .75fr .75fr auto;
+  grid-column-gap: .5fr;
+  grid-template-areas: " left github linkedin email right";
+
+
 }
 
 .git-hub-wrapper{
   grid-area: github;
   justify-self: center;
-  /* height: 100%; */
+
 }
 
 .linked-in-wrapper{
   grid-area: linkedin;
   justify-self: center;
+
 }
 
 .email-icon-wrapper{
   grid-area: email;
-  justify-content: center;
+  justify-self: center;
+  align-items: center;
+
 }
-.git-hub-icon, .linked-in-icon, .email-icon{
-  height: 8em;
-  width: 8em;
+.git-hub-icon, .linked-in-icon{
+  height: 6em;
+  width: 6em;
   margin: 0;
+  justify-self: center;
 }
-.git-hub-label, .linked-in-label, .email-icon-label{
+.git-hub-label, .linked-in-label{
   margin-top: 0;
   font-size: 1em;
   text-align: center;
   justify-self: center; 
+  
 }
+.email-icon{
+  height: 6em;
+  width: 6em;
+  margin: 0;
+  padding-left: 3em;
+}
+.email-icon-label{
+  
+  margin-top: .8em;
+  font-size: .9em;
+  text-align: center;
+  justify-self: center;  
+}
+
+

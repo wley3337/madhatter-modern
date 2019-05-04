@@ -19,8 +19,9 @@ const backgroundImgStyle ={
 function App() {
   return (
     <div className="main" style={backgroundImgStyle}>
+    <div className="content-wrapper">
       <h1 className="text name-title">Will Ley</h1>
-      <h3 className="text welcome-text">Developer, life long learner, and wearer of many hats.</h3>
+      <h3 className="welcome-text">Developer, life long learner, and wearer of many hats.</h3>
       <TopHat />
       <About />
       <Fedora />
@@ -28,6 +29,8 @@ function App() {
       <ReporterHat />
       <Blogs />
       <ContactIcons/>
+
+    </div>
     </div>
   );
 }
