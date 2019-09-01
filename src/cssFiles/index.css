@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   width: 100vw;
-  background-image: url('/paper-background.jpg');
+  background-image: url('https://madhatter.dev/paper-background.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -87,35 +87,7 @@ body {
  margin-left:auto;
  margin-right: auto;
 }
-/* *********** IMAGE STYLES
 
-#top-hat{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 400px;
-  width: 300px;
-}
-
-#fedora{
-  display: block;
-  margin-top: 15em;
-  margin-bottom: 10em;
-  margin-left: auto;
-  margin-right: auto;
-  height: 220px;
-  width: 300px;
-}
-
-#reporter-hat{
-  display: block;
-  margin-top: 15em;
-  margin-bottom: 10em;
-  margin-left: auto;
-  margin-right: auto;
-  height: 220px;
-  width: 270px; 
-} */
 .menu-card{
   border: solid .08rem black;
   border-radius: 5%;
@@ -123,16 +95,10 @@ body {
 
 /* *********** ABOUT STYLES */
 
-/* .about-component{
-  
-} */
 .about-wrapper{
-  /* background-color: rgba(112, 111, 112, 0.7); */
   background-color: rgb(29,72,155, .5);
-  /* margin: 30px; */
-  /* margin-left: auto;
-  margin-right: auto; */
   padding: 1em;
+  padding-bottom: 0;
   text-align: center;
   letter-spacing: 1.6px;
   line-height: 1.6;
@@ -164,7 +130,7 @@ body {
 
 .about-text-wrapper{
   grid-area: ab-text;
-  padding: 2em;
+  padding: 3em;
   border-radius: 3%;
 }
 
@@ -177,11 +143,6 @@ body {
  grid-template-areas: "left-space p-mh-title right-space" 
 
 }
-/* .project-title-card{
-  grid-area: p-title-card;
-  height: 30rem;
-  width: 22rem; 
-} */
 .title-card{
   display: inline-block;
   position: relative;
@@ -198,7 +159,6 @@ body {
   color: black;
   left: 1.1rem;
   top: -11.5rem;
-
 }
 .project-selection-sub-title{
   display: inline-block;
@@ -209,7 +169,6 @@ body {
 }
 
 .project-second-img{
-  /* grid-area: p-mh-title; */
   position: relative;
   top:0;
   left:0;
@@ -244,9 +203,7 @@ body {
 }
 
 .project-detail-div {
- 
   padding: 1.3rem;
-  /* border-bottom: 1px solid #000; */
   letter-spacing: 1.3px;
   line-height: 1.2;
   color:white;
@@ -254,8 +211,6 @@ body {
 
 .project-header {
   margin-top: 0;
-  
-
 }
 .project-info-wrapper{
   margin-top: 1rem;
@@ -268,33 +223,24 @@ body {
   grid-area: pd-text;
   padding: 0 .5rem;
   font-size: 150%;
-  /* padding-top: 1rem; */
 }
 .project-detail-title{
   margin-top: 0;
   font-size: 150%;
 }
-/* .detail-d-arrow, .detail-u-arrow{
-  font-size: 100%;
-  text-align: center;
-} */
 
 .project-screen-shot{
   grid-area: pd-image;
   text-align: center;
-  
 }
 .p-image-detail{
-  /* padding-top: 1rem; */
   height: 30rem;
-  /* width: 22rem; */
 }
 
 .project-detail-desc {
   font-size: 95%; 
   font-weight: 500;
   line-height: 140%;
-  
 }
 
 .project-detail-tech{
@@ -346,27 +292,16 @@ body {
     top: -6.2rem;
 }
 
- /* .contact-header{
-  color: #fff;
-  font-size: 3em;
-  text-align: center;
-  align-self: center;
-  justify-self: center;
-  margin: 1.5em;
-} */
-
 .blogs-details-wrapper{
   background-color: rgb(29,72,155, .5);;
   padding: 1rem 2rem;
   
 }
 .blog-detail-wrapper{
-  /* add character spacing to this */
   margin: .5em;
   padding: .8em;
   font-size: 125%; 
   line-height: 140%;
-  /* padding: 1em; */
 }
 
 .blog-detail-header{
@@ -399,9 +334,6 @@ body {
   color: black;
   font-size: 2.5em;
   text-align: right;
-  /* align-self: center; */
-  /* justify-self: center; */
-  /* margin: 1.5em; */
   margin: 3rem 0;
 
 }
@@ -409,7 +341,6 @@ body {
   grid-area: contact-content;
 }
 .contact-icon-wrapper{
-  /* background-color: rgb(106,27,154, .6); */
   padding: .5em;
   display: grid;
   grid-template-columns: auto .5fr .5fr .5fr .5fr auto;
@@ -421,20 +352,17 @@ body {
 .git-hub-wrapper{
   grid-area: github;
   justify-self: center;
-
 }
 
 .linked-in-wrapper{
   grid-area: linkedin;
   justify-self: center;
-
 }
 
 .email-icon-wrapper{
   grid-area: email;
   justify-self: center;
   align-items: center;
-
 }
 .resume-icon-wrapper{
   grid-area: resume;
@@ -452,7 +380,6 @@ body {
   height: 6em;
   width: 6em;
   margin: 0;
-  /* padding-left: 3em; */
 }
 
 .contact-mh-image{

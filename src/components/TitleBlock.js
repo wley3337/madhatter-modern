@@ -6,8 +6,7 @@ const TitleBlock = ()=>{
     return(
         <div className="title-block-wrapper">
             <span className="title-img-wrapper">
-
-            <img src={MadHatterWelcome} alt="Mad Hatter at tea" className="title-img"/>
+                <img src={MadHatterWelcome} alt="Mad Hatter at tea" className="title-img"/>
             </span>
             <span className="title-text-wrapper">
                 <h1 className="do-title">Do come in, won't you?</h1>

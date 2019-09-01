@@ -8,13 +8,13 @@ export const blogsArray = [
     {
         id: "b1",
         title: "Searchable toolbar with Semantic UI React with user input",
-        desc: "A walk through on how to use Semantic UI toolbar with React without Redux.",
+        desc: "Here, I show how to use Semantic UI toolbar with React without Redux.",
         link: "https://medium.com/@wley3337/searchable-tool-bar-with-semantic-ui-react-with-user-input-f6b46c80395"
     },
     {
         id: "b2",
         title: "Promises, promises….",
-        desc: "A look at promise objects in JavaScript and an explanation of why we use them and how to chain them together.",
+        desc: "This is a look at promise objects in JavaScript and an explanation of why we use them and how to chain them together.",
         link: "https://medium.com/@wley3337/promises-promises-6cf6bbd5104b"
     },
     {
