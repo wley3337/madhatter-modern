@@ -1,6 +1,6 @@
 /* font-family: 'Dosis', sans-serif;
 font-family: 'Lato', sans-serif; */
-
+/* add: 'https://madhatter.dev/' to background for deployment on GitHub */
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   width: 100vw;
-  background-image: url('https://madhatter.dev/textured-background.png');
+  background-image: url('/paper-background.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -19,14 +19,13 @@ body {
 
 .main{
   display: grid;
-  grid-template-columns:  auto minmax(200px, 850px) auto;
-  grid-template-areas: "main-left body main-right ";
+  grid-template-columns: minmax(1110px, 1fr);
+  grid-template-areas: "body";
 
 }
 .content-wrapper{
   grid-area: body;
 }
-
 
 .text {
   color: #fff;
@@ -36,28 +35,59 @@ body {
 }
 
 /* ******** MAIN TITLES */
+.title-block-wrapper{
+  grid-area: body;
+  min-height: 8rem;
+  display: grid;
+  padding: 3rem .5rem;
+  grid-template-columns: .2fr 1fr 1fr .2fr;
+  grid-template-areas: "t-l-space image title t-r-space";
+}
+.title-img-wrapper{
+  grid-area: image;
+  height: 35rem;
+}
+.title-img{
+  height: 100%;
+  transform: scaleX(-1);
+  /* width: 50; */
+}
+.title-text-wrapper{
+  grid-area: title;
 
-
+}
+.do-title{
+  text-align: left;
+  font-size: 170%;
+  padding: .2rem 0;
+  
+}
 .name-title, .welcome-text {
+  color: black;
   text-align: center;
   align-self: center;
   justify-self: center;
 
 }
 
+
 .welcome-text{
-  color: #fff;
   letter-spacing: .4em;
   padding: 1em;
 }
 
 .name-title{
-  margin-top: 0;
+  margin-top: 4rem;
   padding-top: 30px;
   font-family: 'Dosis', sans-serif;
+  font-size: 300%;
 }
-
-/* *********** IMAGE STYLES */
+.title-icon-wrapper{
+ width: 80%;
+ margin-left:auto;
+ margin-right: auto;
+}
+/* *********** IMAGE STYLES
 
 #top-hat{
   display: block;
@@ -85,23 +115,55 @@ body {
   margin-right: auto;
   height: 220px;
   width: 270px; 
+} */
+.menu-card{
+  border: solid .08rem black;
+  border-radius: 5%;
 }
 
-
 /* *********** ABOUT STYLES */
+
+/* .about-component{
+  
+} */
 .about-wrapper{
-  background-color: rgb(106,27,154);
-  margin: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  /* background-color: rgba(112, 111, 112, 0.7); */
+  background-color: rgb(29,72,155, .5);
+  /* margin: 30px; */
+  /* margin-left: auto;
+  margin-right: auto; */
   padding: 1em;
   text-align: center;
   letter-spacing: 1.6px;
   line-height: 1.6;
+  display: grid;
+  grid-template-columns: .3fr 1fr 2fr .3fr;
+  grid-template-areas: "ab-l-s ab-card ab-text ab-r-s"
+
+}
+.about-menu-card-wrapper{
+  grid-area: ab-card;
+  height: 30rem;
+  width: 22rem;
+}
+.top-hat-card-wrapper{
+  height:30rem;
+}
+.top-hat-card-about{
+  margin-top:3rem;
+  height: 60%;
+}
+.about-title{
+  display: inline-block;
+  position: relative;
+  color: black;
+  left: -8rem;
+  top: -3rem;
 
 }
 
 .about-text-wrapper{
+  grid-area: ab-text;
   padding: 2em;
   border-radius: 3%;
 }
@@ -109,65 +171,202 @@ body {
 
 /* ******** Project Styles */
 
-.project-section-title, .blogs-section-title, .contact-header{
-  color: #fff;
-  font-size: 3em;
-  text-align: center;
-  align-self: center;
-  justify-self: center;
-  margin: 1.5em;
+.project-title-wrapper{
+ display: grid;
+ grid-template-columns: .5fr 1fr .75fr;
+ grid-template-areas: "left-space p-mh-title right-space" 
+
 }
+/* .project-title-card{
+  grid-area: p-title-card;
+  height: 30rem;
+  width: 22rem; 
+} */
+.title-card{
+  display: inline-block;
+  position: relative;
+  color: black;
+  left: 11.3rem;
+  top: 0rem;
+  height: 18.5rem;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+.project-section-title{
+  display: inline-block;
+  position: relative;
+  color: black;
+  left: 1.1rem;
+  top: -11.5rem;
+
+}
+.project-selection-sub-title{
+  display: inline-block;
+  position: relative;
+  color: black;
+  left: -5.1rem;
+  top: -10.1rem;
+}
+
+.project-second-img{
+  /* grid-area: p-mh-title; */
+  position: relative;
+  top:0;
+  left:0;
+  height: 40rem;
+  width: 40rem;
+}
+.project-litho{
+  height: 59%;
+  display: inline-block;
+  position: absolute;
+  left: 3rem;
+  top: 72rem;
+}
+
+.tea-party-card{
+  grid-area: p-mh-title;
+  text-align: center;
+  height: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
 
 .projects-wrapper{
-  background-color: rgb(75,163,199);
-  padding: 1em;
-  
-}
+  background-color: rgb(29,72,155, .5);
+  margin-top: 3.5rem;
+  padding: 1rem;
+  padding-top: 4.5rem;
 
-.projects-headers, .blog-sub-heading{
-  color: #fff;
-  text-align: center;
-  align-self: center;
-  justify-self: center; 
-  margin: 2em;
-  letter-spacing: 1.5px;
 }
 
 .project-detail-div {
-  padding: 1em;
-  border-top: 1px solid #000;
+ 
+  padding: 1.3rem;
+  /* border-bottom: 1px solid #000; */
   letter-spacing: 1.3px;
   line-height: 1.2;
+  color:white;
 }
 
 .project-header {
+  margin-top: 0;
+  
+
+}
+.project-info-wrapper{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: "pd-text pd-image"
+}
+
+.project-detail-text{
+  grid-area: pd-text;
+  padding: 0 .5rem;
   font-size: 150%;
+  /* padding-top: 1rem; */
+}
+.project-detail-title{
+  margin-top: 0;
+  font-size: 150%;
+}
+/* .detail-d-arrow, .detail-u-arrow{
+  font-size: 100%;
+  text-align: center;
+} */
+
+.project-screen-shot{
+  grid-area: pd-image;
+  text-align: center;
+  
+}
+.p-image-detail{
+  /* padding-top: 1rem; */
+  height: 30rem;
+  /* width: 22rem; */
 }
 
 .project-detail-desc {
   font-size: 95%; 
   font-weight: 500;
   line-height: 140%;
-
+  
 }
 
 .project-detail-tech{
-  font-size: 75%;  
+  font-size: 85%;  
   font-weight: 500;
   line-height: 140%;
 }
 
+/* ******* BLOG STYLES */
+.blog-title-wrapper{
+  margin-top: 3rem;
+  height: 34rem;
+  /* text-align: center; */
+  display: grid;
+ grid-template-columns: .5fr 1fr 1fr .5fr;
+ grid-template-areas: "marg-left b-mh-title b-title-card marg-right" 
+}
 
-/* ******* BLOG SYTLES */
+.blog-second-img{
+  grid-area: b-mh-title;
+  height: 35rem;
+}
+.blog-second-img img{
+  height: 90%; 
+}
+.blog-title-card{
+  grid-area: b-title-card;
+  height: 71%;
+}
+.blog-title{
+  margin-top: 2rem;
+  margin-left: 6rem;
+  height: 45%;
+}
+.blogs-section-title{
+  color: black;
+  display: inline-block;
+  position: relative;
+  left: 11.8rem;
+  top: -8.2rem;
+
+}
+.blog-sub-heading{
+    color: black;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    position: relative;
+    left: 5.7rem;
+    top: -6.2rem;
+}
+
+ /* .contact-header{
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  margin: 1.5em;
+} */
+
 .blogs-details-wrapper{
-  background-color: rgb(75,163,199, .3);
-  padding: .2em;
- 
+  background-color: rgb(29,72,155, .5);;
+  padding: 1rem 2rem;
+  
 }
 .blog-detail-wrapper{
-  background-color: rgb(106,27,154);
+  /* add character spacing to this */
   margin: .5em;
   padding: .8em;
+  font-size: 125%; 
+  line-height: 140%;
+  /* padding: 1em; */
 }
 
 .blog-detail-header{
@@ -186,29 +385,38 @@ body {
 }
 
 /* ********* CONTACT STYLES */
-.contact-header{
-  color: #fff;
-  font-size: 2.5em;
-  text-align: center;
-  align-self: center;
-  justify-self: center;
-  margin: 1.5em;
-}
 .contact-wrapper{
   justify-self: center;
   justify-content: center;
+  margin: 3rem 0;
+  
+  padding:.5rem;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr .5fr;
+  grid-template-areas: "left contact-content contact-mh-image right"
 }
+.contact-header{
+  color: black;
+  font-size: 2.5em;
+  text-align: right;
+  /* align-self: center; */
+  /* justify-self: center; */
+  /* margin: 1.5em; */
+  margin: 3rem 0;
 
+}
+.contact-content{
+  grid-area: contact-content;
+}
 .contact-icon-wrapper{
-  background-color: rgb(106,27,154, .6);
+  /* background-color: rgb(106,27,154, .6); */
   padding: .5em;
   display: grid;
-  grid-template-columns: auto .75fr .75fr .75fr auto;
-  grid-column-gap: .5fr;
-  grid-template-areas: " left github linkedin email right";
-
-
+  grid-template-columns: auto .5fr .5fr .5fr .5fr auto;
+  grid-column-gap: .1fr;
+  grid-template-areas: " left github linkedin email resume right";
 }
+
 
 .git-hub-wrapper{
   grid-area: github;
@@ -228,31 +436,31 @@ body {
   align-items: center;
 
 }
-.git-hub-icon, .linked-in-icon{
+.resume-icon-wrapper{
+  grid-area: resume;
+  justify-self: center;
+  align-items: center; 
+}
+.git-hub-icon, .linked-in-icon, .resume-icon{
   height: 6em;
   width: 6em;
   margin: 0;
   justify-self: center;
 }
-.git-hub-label, .linked-in-label{
-  margin-top: 0;
-  font-size: 1em;
-  text-align: center;
-  justify-self: center; 
-  
-}
+
 .email-icon{
   height: 6em;
   width: 6em;
   margin: 0;
   /* padding-left: 3em; */
 }
-.email-icon-label{
-  
-  margin-top: .8em;
-  font-size: .9em;
-  text-align: center;
-  justify-self: center;  
+
+.contact-mh-image{
+  grid-area: contact-mh-image;
+  height: 20rem;
+}
+.contact-mh-image img{
+  height: 100%;
 }
 
 

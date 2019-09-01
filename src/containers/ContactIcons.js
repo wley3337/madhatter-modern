@@ -1,18 +1,17 @@
 import React from 'react'
-import GitHubIcon from '../components/GitHubIcon'
-import LinkedInIcon from '../components/LinkedInIcon'
-import EmailIcon from '../components/EmailIcon'
-
+import mhContact from '../images/mh-contact.png'
+import IconWrapper from './IconWrapper';
 
 const ContactIcons = () =>{
     return(
         <div className="contact-wrapper">
-            <h1 className="contact-header">Please keep in touch!</h1>
-            <div className="contact-icon-wrapper">
-                <GitHubIcon />
-                <LinkedInIcon />
-                <EmailIcon/>
-            </div>
+            <span className="contact-content">
+                <h1 className="contact-header">Do keep in touch!</h1>
+                <IconWrapper/>
+            </span>
+            <span className="contact-mh-image">
+                <img src={mhContact} alt="Mad Hatter Speaking" />
+            </span>
         </div>
     )
 }

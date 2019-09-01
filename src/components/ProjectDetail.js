@@ -1,15 +1,38 @@
 import React from 'react'
+import fscDetailImage from '../images/projectImages/fscDetailImages.png'
+import onitamaDetailImage from '../images/projectImages/onitamaDetailImages.png'
+import weRHereDetailImage from '../images/projectImages/weRHereDetailImages.png'
+
+const detailImage = (title) => {
+    switch(title){
+        case "Flatiron Students Connect":
+            return <img src={fscDetailImage} className="p-image-detail" alt="Flatiron Students connect website sample"/>
+        case "Onitama":
+            return <img src={onitamaDetailImage} className="p-image-detail" alt="Onitama website sample" /> 
+        case "WeRHere":
+            return <img src={weRHereDetailImage} className="p-image-detail" alt="We r here website Sample" />
+        default:
+            return null
+    }
+}
 
 const ProjectDetail = ({title, description, githubLink, techUsed})=>{
     return(
         <div className="project-detail-div">
-            <div className="project-header">
-                <a href={githubLink} alt="git hub project" target="_blank" rel="noopener noreferrer">
-                <p className="project-detail-title">{title}</p>
-                </a>
-            </div>
-            <p className="project-detail-desc">{description}</p>
-            <p className="project-detail-tech"><strong>Tech used:</strong>  {techUsed}</p>
+            <span className="project-info-wrapper">
+                <span className="project-detail-text">
+                    <div className="project-header">
+                        <a href={githubLink} alt="git hub project" target="_blank" rel="noopener noreferrer">
+                        <p className="project-detail-title">{title}</p>
+                        </a>
+                    </div>
+                    <p className="project-detail-desc">{description}</p>
+                    <p className="project-detail-tech"><strong>Tech used:</strong>  {techUsed}</p>
+                </span>
+                <span className="project-screen-shot">
+                    { detailImage(title) }
+                </span>
+            </span>
         </div>
     )
 }
