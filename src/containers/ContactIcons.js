@@ -6,7 +6,7 @@ const ContactIcons = () =>{
     return(
         <div className="contact-wrapper">
             <span className="contact-content">
-                <h1 className="contact-header">Do keep in touch!</h1>
+                <h1 className="contact-header mh-text">Do keep in touch!</h1>
                 <IconWrapper/>
             </span>
             <span className="contact-mh-image">

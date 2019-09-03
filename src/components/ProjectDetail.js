@@ -16,9 +16,9 @@ const detailImage = (title) => {
     }
 }
 
-const ProjectDetail = ({title, description, githubLink, techUsed})=>{
+const ProjectDetail = ({title, description, githubLink, techUsed, deployedURI})=>{
     return(
-        <div className="project-detail-div">
+        <div className={`project-detail-div ${title==="Onitama" ? "last" :null}` }>
             <span className="project-info-wrapper">
                 <span className="project-detail-text">
                     <div className="project-header">
@@ -30,7 +30,9 @@ const ProjectDetail = ({title, description, githubLink, techUsed})=>{
                     <p className="project-detail-tech"><strong>Tech used:</strong>  {techUsed}</p>
                 </span>
                 <span className="project-screen-shot">
-                    { detailImage(title) }
+                    <a href={deployedURI} alt={`deployed version of ${title} `} target="_blank" rel="noopener noreferrer">
+                        { detailImage(title) }
+                    </a>
                 </span>
             </span>
         </div>
