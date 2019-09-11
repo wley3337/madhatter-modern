@@ -262,28 +262,19 @@ body {
 .blog-title-wrapper{
   margin-top: 3rem;
   height: 34rem;
-  /* text-align: center; */
   display: grid;
- grid-template-columns: .5fr 1fr 1fr .5fr;
- grid-template-areas: "marg-left b-mh-title b-title-card marg-right" 
+ grid-template-columns: .4fr 1fr  .5fr;
+ grid-template-areas: "marg-left b-mh-title marg-right" 
 }
 
 .blog-second-img{
   grid-area: b-mh-title;
-  height: 35rem;
+  height: 36rem;
 }
 .blog-second-img img{
-  height: 90%; 
+  height: 100%; 
 }
-.blog-title-card{
-  grid-area: b-title-card;
-  height: 71%;
-}
-.blog-title{
-  margin-top: 2rem;
-  margin-left: 6rem;
-  height: 45%;
-}
+
 .blogs-section-title{
   color: black;
   display: inline-block;
