@@ -2,6 +2,7 @@ import React from 'react'
 import fscDetailImage from '../images/projectImages/fscDetailImages.png'
 import onitamaDetailImage from '../images/projectImages/onitamaDetailImages.png'
 import weRHereDetailImage from '../images/projectImages/weRHereDetailImages.png'
+import learnTogetherDetailImage from '../images/projectImages/learnTogetherDetailImages.png'
 
 const detailImage = (title) => {
     switch(title){
@@ -10,7 +11,9 @@ const detailImage = (title) => {
         case "Onitama":
             return <img src={onitamaDetailImage} className="p-image-detail" alt="Onitama website sample" /> 
         case "WeRHere":
-            return <img src={weRHereDetailImage} className="p-image-detail" alt="We r here website Sample" />
+            return <img src={weRHereDetailImage} className="p-image-detail" alt="We r here website sample" />
+        case "LearnTogether":
+            return <img src={learnTogetherDetailImage} className="p-image-detail" alt="Learn Together website sample" /> 
         default:
             return null
     }

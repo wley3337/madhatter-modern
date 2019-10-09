@@ -9,6 +9,14 @@ export const projects = [
     },
     {   
         id: "p2",
+        title: "LearnTogether",
+        description: "This is a single page web app redesign an existing Ruby on Rails only site that I created while working at Flatiron School. The new site surfaces more relevant information about how students are paired as well as makes the user experience more intuitive and aligned with modern web expectations. I designed, pitched, and engineered the project from the ground up while integrating end user feedback throughout the process. ",
+        githubLink: "https://youtu.be/-v6BXef0JiE",
+        techUsed: "React, Redux, Thunk, Client-side Routing, JWT Token Auth., CSS Grid, Semantic UI React Library, Ruby on Rails w/ PostgresSQL for persistence, and Learn Oauth for user sign-in",
+        deployedURI: "https://youtu.be/-v6BXef0JiE"
+    },   
+    {
+        id: "p3",
         title: "Flatiron Students Connect",
         description: "A platform where students can take and share notes and resources while going through the Flatiron software engineering course.",
         githubLink: "https://github.com/wley3337/Flightiron-Students-Connect",
@@ -16,7 +24,7 @@ export const projects = [
         deployedURI: "https://flatiron-students-connect.herokuapp.com/"
     },
     {
-        id: "p3",
+        id: "p4",
         title: "Onitama",
         description: "A clone of the board game Onitama. It's a combination of chess and checkers where players compete using 5 of the 16 different movement cards chosen randomly at the start of the game.",
         githubLink: "https://github.com/wley3337/onitama-frontend",
