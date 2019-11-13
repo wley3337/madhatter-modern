@@ -52,7 +52,7 @@ body {
   
 .title-img{
   height: 100%;
-  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
 }
   
 .title-text-wrapper{
@@ -500,6 +500,10 @@ body {
   .blogs-details-wrapper{
     font-size: 2rem;
     font-weight: 800; 
+  }
+
+  .contact-wrapper{
+    grid-template-columns: .75fr .1fr 1fr .5fr;
   }
 
 }
