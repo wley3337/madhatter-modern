@@ -102,13 +102,12 @@ body {
 
 .about-wrapper{
   background-color: rgb(29,72,155, .5);
-  padding: 1em;
-  padding-bottom: 0;
+  padding: 0rem;
   text-align: center;
   letter-spacing: 1.6px;
   line-height: 1.6;
   display: grid;
-  grid-template-columns: .3fr 1fr 2fr .3fr;
+  grid-template-columns: .8fr 1fr 2fr .3fr;
   grid-template-areas: "ab-l-s ab-card ab-text ab-r-s"
 
 }
@@ -124,17 +123,11 @@ body {
   margin-top:3rem;
   height: 60%;
 }
-.about-title{
-  display: inline-block;
-  position: relative;
-  color: black;
-  left: -8rem;
-  top: -3rem;
 
-}
 
 .about-text-wrapper{
   grid-area: ab-text;
+  color: white;
   padding: 3em;
   border-radius: 3%;
 }
@@ -391,3 +384,117 @@ body {
 }
 
 
+/* ****** Width Less than 750px ****** */
+@media(max-width: 749px){
+  .title-block-wrapper{
+    grid-area: body;
+    min-height: 8rem;
+    display: grid;
+    padding: 3rem .5rem;
+    grid-template-rows: .2fr 1fr 1fr .2fr;
+    grid-template-columns: .15fr 1fr .15fr;
+    grid-template-areas: "t-top t-top t-top" ". image ." ". title ." "t-bottom t-bottom t-bottom";
+  }
+
+  .title-img-wrapper{
+    grid-area: image;
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 35rem;
+  }
+  .do-title{
+    position: relative;
+    top:-35rem;
+    left: 27rem;
+    text-align: left;
+    font-size: 2.em;
+    padding: .2rem 0;
+    
+  }
+
+
+.welcome-text{
+  letter-spacing: .4em;
+  font-size: 200%;
+  padding: 1em;
+}
+
+.name-title{
+  margin-top: 4rem;
+  padding-top: 45px;
+  font-family: 'Cormorant SC', serif;;
+  font-size: 700%;
+}
+.title-icon-wrapper{
+  width: 87%;
+
+  margin-left:auto;
+  margin-right: auto;
+ }
+ .git-hub-icon, .linked-in-icon, .resume-icon{
+  height: 9em;
+  width: 9em;
+  margin: 0;
+  justify-self: center;
+}
+
+.email-icon{
+  height: 9em;
+  width: 9em;
+  margin: 0;
+}
+
+.about-wrapper{
+  background-color: rgb(29,72,155, .5);
+  padding: 1em;
+  padding-bottom: 0;
+  text-align: center;
+  letter-spacing: 1.6px;
+  line-height: 1.6;
+  display: grid;
+  grid-template-rows: 0fr 0fr 1fr .05fr;
+  grid-template-columns: .15fr 1fr .15fr;
+  grid-template-areas: 
+    ". ab-top ."  
+    ". ab-card ." 
+    ". ab-text ." 
+    ". ab-bottom ."
+}
+
+.about-menu-card-wrapper{
+  grid-area: ab-card;
+  justify-self: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  justify-content: center;
+  text-align: center;
+  height: 40rem;
+  width: 32rem;
+}
+.top-hat-card-about{
+  /* margin-top:3rem; */
+  margin-right: auto;
+  margin-left: auto;
+  height: 76%;
+}
+
+.about-text-wrapper{
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.project-info-wrapper{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 0fr;
+  grid-template-rows: .7fr 1fr;
+  grid-template-areas: "pd-text" "pd-image";
+  font-size: 1.5rem;
+}
+
+.blogs-details-wrapper{
+  font-size: 2rem;
+  font-weight: 800; 
+}
+
+}
