@@ -3,6 +3,7 @@ import fscDetailImage from '../images/projectImages/fscDetailImages.png'
 import onitamaDetailImage from '../images/projectImages/onitamaDetailImages.png'
 import weRHereDetailImage from '../images/projectImages/weRHereDetailImages.png'
 import learnTogetherDetailImage from '../images/projectImages/learnTogetherDetailImages.png'
+import fantasyBaseball from '../images/projectImages/fantasyBaseball.png'
 
 const detailImage = (title) => {
     switch(title){
@@ -14,6 +15,8 @@ const detailImage = (title) => {
             return <img src={weRHereDetailImage} className="p-image-detail" alt="We r here website sample" />
         case "LearnTogether":
             return <img src={learnTogetherDetailImage} className="p-image-detail" alt="Learn Together website sample" /> 
+        case 'Fantasy Baseball App':
+            return <img src={fantasyBaseball} className="p-image-detail" alt="Fantasy Baseball website login page and owner landing page" /> 
         default:
             return null
     }
