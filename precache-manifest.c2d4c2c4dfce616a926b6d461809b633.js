@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35a6705c59dd5c1279c8bc1ead80d7e1",
+    "revision": "15c33f27331136178d01ea00ca809b50",
     "url": "/index.html"
   },
   {
-    "revision": "ccc8a69d134efccb1c44",
+    "revision": "f272abbfbf9c911a00ce",
     "url": "/static/css/main.c8b2fd49.chunk.css"
   },
   {
-    "revision": "b4b9fb4928d42715ff93",
-    "url": "/static/js/2.9517eb63.chunk.js"
+    "revision": "bdfc1e2f969a39a94f55",
+    "url": "/static/js/2.e3523a7a.chunk.js"
   },
   {
-    "revision": "ccc8a69d134efccb1c44",
-    "url": "/static/js/main.7b9ed740.chunk.js"
+    "revision": "f272abbfbf9c911a00ce",
+    "url": "/static/js/main.d50cfb48.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c06dc15cfc83ce933f3644e80d8d9b49",
     "url": "/static/media/chesserOctocatSketch.c06dc15c.png"
+  },
+  {
+    "revision": "33d16775f91c9a4925be33c41e0a2f40",
+    "url": "/static/media/fantasyBaseball.33d16775.png"
   },
   {
     "revision": "5639e10b09f615b5ea9a302cbf014621",
