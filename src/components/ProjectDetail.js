@@ -8,12 +8,12 @@ import weRHereDetailImage from "../images/projectImages/weRHereDetailImages.png"
 
 const detailImage = (title) => {
   switch (title) {
-    case "Upside Buisness Travel":
+    case "Upside Business Travel":
       return (
         <img
           src={upside}
           className="p-image-detail"
-          alt="Upside Buisness Travel website sample"
+          alt="Upside Business Travel website sample"
         />
       );
     case "Flatiron Students Connect":
