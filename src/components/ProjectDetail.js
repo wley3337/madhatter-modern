@@ -3,7 +3,6 @@ import React from "react";
 import fantasyBaseball from "../images/projectImages/fantasyBaseball.png";
 import fscDetailImage from "../images/projectImages/fscDetailImages.png";
 import learnTogetherDetailImage from "../images/projectImages/learnTogetherDetailImages.png";
-import onitamaDetailImage from "../images/projectImages/onitamaDetailImages.png";
 import upside from "../images/projectImages/upsideDetailImages.png";
 import weRHereDetailImage from "../images/projectImages/weRHereDetailImages.png";
 
@@ -23,14 +22,6 @@ const detailImage = (title) => {
           src={fscDetailImage}
           className="p-image-detail"
           alt="Flatiron Students connect website sample"
-        />
-      );
-    case "Onitama":
-      return (
-        <img
-          src={onitamaDetailImage}
-          className="p-image-detail"
-          alt="Onitama website sample"
         />
       );
     case "WeRHere":
