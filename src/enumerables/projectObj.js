@@ -38,7 +38,7 @@ export const projects = [
     deployedURI: "https://youtu.be/-v6BXef0JiE",
   },
   {
-    id: "p4",
+    id: "p5",
     title: "Flatiron Students Connect",
     description:
       "A platform where students can take and share notes and resources while going through the Flatiron software engineering course.",
@@ -46,16 +46,6 @@ export const projects = [
     techUsed:
       "React, Client-side Routing, JWT Token Auth., Redux, Thunk, CSS Grid, and the Semantic UI React Library, Ruby on Rails w/ PostgresSQL for persistence",
     deployedURI: "https://flatiron-students-connect.herokuapp.com/",
-  },
-  {
-    id: "p5",
-    title: "Onitama",
-    description:
-      "A clone of the board game Onitama. It's a combination of chess and checkers where players compete using 5 of the 16 different movement cards chosen randomly at the start of the game.",
-    githubLink: "https://github.com/wley3337/onitama-frontend",
-    techUsed:
-      "JavaScript, AJAX, HTML 5, CSS Grid, Ruby on Rails w/ PostgresSQL for persistence",
-    deployedURI: "https://onitama-front.herokuapp.com/",
   },
 ];
 
