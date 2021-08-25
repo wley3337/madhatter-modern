@@ -3,7 +3,7 @@ export const projects = [
     id: "p1",
     title: "Upside Buisness Travel",
     description:
-      "A buisness travel solution where travelers can focus on overcoming their next buisness problem, not how they're going to get to their next big meeting. \n\nI worked extensively on building out our one way rental car reservation system, led the refactoring of our booking engine and incorporation of multiple third-party travel APIs",
+      "A buisness travel solution where travelers can focus on overcoming their next buisness problem, not how they're going to get to their next big meeting. \n\nI worked extensively on building out our one way rental car reservation system, led the refactoring of our booking engine and incorporation of multiple third-party travel APIs, and 80% of our code was shipped to production in 72 hours.",
     techUsed:
       "TypeScript, NodeJS, JavaScript, Python, React, Redux, Redux-Saga, Express, SQL, GraphQL, Docker, Micro Service Architecture, Clean Architexture",
   },
