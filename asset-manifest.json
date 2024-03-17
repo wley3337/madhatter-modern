@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.b6b86388.css",
-    "main.js": "/static/js/main.47bd3fc7.js",
+    "main.js": "/static/js/main.6e333635.js",
     "static/media/upsideDetailImages.png": "/static/media/upsideDetailImages.37bf8204609cc175eab2.png",
     "static/media/fantasyBaseball.png": "/static/media/fantasyBaseball.28736e2ee79efe9faac9.png",
     "static/media/mh-w-blogs.png": "/static/media/mh-w-blogs.1a0f15947778989490e5.png",
     "static/media/fscDetailImages.png": "/static/media/fscDetailImages.123d49437a22f849f1a9.png",
     "static/media/weRHereDetailImages.png": "/static/media/weRHereDetailImages.2eea088588d25d843921.png",
+    "static/media/teampayDetailImages.png": "/static/media/teampayDetailImages.1600fd577ef67672b5ad.png",
     "static/media/mh-contact.png": "/static/media/mh-contact.71b7db95574a623a89c8.png",
     "static/media/learnTogetherDetailImages.png": "/static/media/learnTogetherDetailImages.d918452d8a750bfb214f.png",
     "static/media/mh-main-with-text.png": "/static/media/mh-main-with-text.1e7ad9eb5cb041213c02.png",
@@ -18,10 +19,10 @@
     "static/media/mailSketch.png": "/static/media/mailSketch.3fc29daeff2b15bf906d.png",
     "index.html": "/index.html",
     "main.b6b86388.css.map": "/static/css/main.b6b86388.css.map",
-    "main.47bd3fc7.js.map": "/static/js/main.47bd3fc7.js.map"
+    "main.6e333635.js.map": "/static/js/main.6e333635.js.map"
   },
   "entrypoints": [
     "static/css/main.b6b86388.css",
-    "static/js/main.47bd3fc7.js"
+    "static/js/main.6e333635.js"
   ]
 }
