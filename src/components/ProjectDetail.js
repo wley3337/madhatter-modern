@@ -3,11 +3,20 @@ import React from "react";
 import fantasyBaseball from "../images/projectImages/fantasyBaseball.png";
 import fscDetailImage from "../images/projectImages/fscDetailImages.png";
 import learnTogetherDetailImage from "../images/projectImages/learnTogetherDetailImages.png";
+import teampay from "../images/projectImages/teampayDetailImages.png";
 import upside from "../images/projectImages/upsideDetailImages.png";
 import weRHereDetailImage from "../images/projectImages/weRHereDetailImages.png";
 
 const detailImage = (title) => {
   switch (title) {
+    case "Teampay":
+      return (
+        <img
+          src={teampay}
+          className="p-image-detail"
+          alt="Teampay fin tech website and slack sample"
+        />
+      );
     case "Upside Business Travel":
       return (
         <img
@@ -60,7 +69,6 @@ const ProjectDetail = ({
   techUsed,
   deployedURI,
 }) => {
-  debugger;
   return (
     <div
       className={`project-detail-div ${title === "Onitama" ? "last" : null}`}
