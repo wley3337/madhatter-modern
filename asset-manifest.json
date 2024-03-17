@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b6b86388.css",
-    "main.js": "/static/js/main.6e333635.js",
+    "main.js": "/static/js/main.f60f0b7f.js",
     "static/media/upsideDetailImages.png": "/static/media/upsideDetailImages.37bf8204609cc175eab2.png",
     "static/media/fantasyBaseball.png": "/static/media/fantasyBaseball.28736e2ee79efe9faac9.png",
     "static/media/mh-w-blogs.png": "/static/media/mh-w-blogs.1a0f15947778989490e5.png",
@@ -19,10 +19,10 @@
     "static/media/mailSketch.png": "/static/media/mailSketch.3fc29daeff2b15bf906d.png",
     "index.html": "/index.html",
     "main.b6b86388.css.map": "/static/css/main.b6b86388.css.map",
-    "main.6e333635.js.map": "/static/js/main.6e333635.js.map"
+    "main.f60f0b7f.js.map": "/static/js/main.f60f0b7f.js.map"
   },
   "entrypoints": [
     "static/css/main.b6b86388.css",
-    "static/js/main.6e333635.js"
+    "static/js/main.f60f0b7f.js"
   ]
 }
