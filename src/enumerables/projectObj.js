@@ -5,7 +5,7 @@ export const projects = [
     description:
       "A fintech providing spend management and accounting controls accross the web, through Slack, and through Micosoft Teams. We worked in dynamic teams with a lot of cross collaboration and coordination with my primary focus being on the core product offering. I worked as a Full Stack Engineer accross our entire application from our Microsoft Teams integration, Slack app., web client, and our backend services.\n\nI was feature captain on our multi-line purchase order feature which touched nearly the entirety of the code base and involved 8 engineers. The work involved included defining product features and buisness requirements with product and design as well as architecture design and implamentation patterns with the engineering team.",
     techUsed:
-      "TypeScript, JavaScript, React, Redux, Redux-Saga, Redux-Tool-Kit, Thunk, Python, Djgano, Postgres, SQL, Clean Architecture",
+      "TypeScript, JavaScript, React, Redux, Redux-Saga, Redux-Tool-Kit, Thunk, Python, Django, Postgres, SQL, Clean Architecture",
   },
   {
     id: "p2",
